@@ -7,7 +7,7 @@
     "routes": [
         {
             "src": "/build/(.*)",
-            "dest": "/build/$1"
+            "dest": "/public/build/$1"
         },
         {
             "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
@@ -22,7 +22,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your-app-name.vercel.app",
+        "APP_URL": "https://web-wedding-sandy.vercel.app",
         "APP_KEY": "base64:deHuS2niqyd1JOaGYzBtzVngPGl8PtPuaP21sw/7jvE=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
